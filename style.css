@@ -3,6 +3,11 @@ body {
   color: white;
   font-family: "Open Sans", sans-serif;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 .upper {
   padding: 70px;
 }
@@ -12,7 +17,7 @@ p {
   border: 1px solid transparent;
   border-radius: 10px;
   background-color: rgb(216, 216, 216);
-  padding: 10px;
+  padding: 7px;
   transition: background-color 0.25s;
 }
 p:hover {
@@ -37,6 +42,7 @@ p:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: no-wrap;
 }
 #IB {
   height: 3rem;
@@ -51,6 +57,14 @@ p:hover {
 #IB:hover {
     width: 25.5rem;
     transition: width 0.5s;
+
+}
+
+@media only screen and (max-width: 730px){
+  #IB {
+    width: 60%;
+  }
+
 
 }
 
@@ -86,19 +100,20 @@ th,
 td {
   border-collapse: collapse;
   text-align: center;
+  verflow-x:auto;
 }
 
 #tableBox {
   display: none;
-}
-table {
-  width: fit-content;
 }
 th,
 td {
   padding-right: 5px;
   padding-left: 5px;
   height: 10px;
+}
+.formBox {
+  position: relative;
 }
 a {
   text-decoration: none;
