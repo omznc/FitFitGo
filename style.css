@@ -1,0 +1,116 @@
+body {
+  background-color: #161616;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.upper {
+  padding: 70px;
+}
+p {
+  color: black;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  transition: background-color 0.25s;
+}
+p:hover {
+  background-color: white;
+}
+.all {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  text-align: center;
+  font-size: 4rem;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+.formBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#IB {
+  height: 3rem;
+  width: 25rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 15px;
+  transition: width 0.5s;
+}
+
+#IB:hover {
+    width: 25.5rem;
+    transition: width 0.5s;
+
+}
+
+btn {
+  height: 3.25rem;
+  width: 7rem;
+  color: rgb(0, 0, 0);
+  background-color: #e9e9e9;
+  border-radius: 15px;
+  padding: 17px 15px 19px 15px;
+  text-align: center;
+  transition: padding 0.2s;
+  cursor: pointer;
+}
+
+btn:hover{
+    background-color: white;
+    padding: 17px 18px 19px 18px;
+    transition: background-color 0.4s, padding 0.2s;
+}
+
+.whoopsie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: rgb(182, 182, 182);
+  margin-top: -50px;
+  margin-bottom: 40px;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#tableBox {
+  display: none;
+}
+table {
+  width: fit-content;
+}
+th,
+td {
+  padding-right: 5px;
+  padding-left: 5px;
+  height: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  transition: color 0.4s;
+  text-decoration: none;
+}
+td {
+  cursor: pointer;
+}
+th {
+  border-bottom: 1px solid white;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <title>FitFitGo™ | The worst search engine in the world.</title>
+    <meta name="description" content="Basically the worst search engine in the world that only works to look up a fraction of the total student population of FIT Mostar."/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  </head>
+  <body>
+    <div class="all">
+      <div class="upper">
+        <a href="https://github.com/omznc/FitFitGo" target="_blank" style="color: white;"><h1 class="title">FitFitGo™</h1></a>
+        <a class="whoopsie" href="https://omarzunic.com/">Omar Zunic - All Rights Reserved</a>
+        <div class="formBox">
+          <form>
+            <input type="text" id="IB" onfocus="this.value=''" placeholder="IB200000" pattern="[I,B]{2}\d{6}"/>
+            <btn type="submit" id="submit" value="GO" onclick="search()">Search</btn>
+          </form>
+        </div>
+      </div>
+      <div id="tableBox">
+        <table>
+          <thead>
+            <tr>
+              <th>IB</th>
+              <th>IME</th>
+              <th>PREZIME</th>
+              <th>EMAIL</th>
+              <th>EMAIL REVERSED</th>
+            </tr>
+          </thead>
+          <tbody id="pleaseaddtheshithere">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+</html>
