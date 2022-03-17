@@ -3,7 +3,7 @@
 
 <a href="https://discord.gg/vZRrpBXFNT"><img src="https://img.shields.io/discord/787773373748740128?label=Discord%20Server&style=for-the-badge"></img></a>
 <br><br>
-## Accessible on https://fit.omarzunic.com/
+## Accessible on https://fitfitgo.omarzunic.com/
 
 
 I can't really say anything else about this. It took like 2 hours and did not help cure my boredom. 
